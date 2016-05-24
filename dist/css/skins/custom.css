@@ -1,0 +1,33 @@
+/*Custom Style*/
+.no-margin{ margin:0 !important; }
+.no-padd{ padding:0 !important; }
+.table-view-data{ background:#fff;width:99%;margin: 10px auto;padding:25px 0;
+	-webkit-box-shadow: 0px 0px 5px 1px rgba(156,158,161,0.8);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(156,158,161,1);
+    box-shadow: 0px 0px 5px 1px rgba(156,158,161,0.8);
+}
+.table-view-head h4 a,.table-view-head p a{ font-size:18px;font-weight:600;color: #333333;}
+.table-view-head p a{ font-size:85%; color: #999;}
+.tbl-data-addons span{ border: 1px solid #3C8DBC;line-height: 19px;color:#3C8DBC;padding:0px 8px;font-size: 11px;position: relative;font-weight:bold;margin:3px 1px;display: inline-block; }
+.tbl-data-addons span i { position: absolute; top: -7px; right: -3px;color: #fff;cursor: pointer; background: #F39C12; padding: 3px;
+    border-radius: 20px;font-size: 8px; } 
+.table-view-details p{ margin-bottom: 0;width: 200px;margin: auto; }
+.table-view-details  span{ width: 96px;display: inline-block;color: #999;}
+.sidebar-menu li.treeview em{position: relative;top:11px; right:30px;font-size: 10px; height: 30px; width: 30px; padding: 10px;float: right; z-index: 10;color: #fff;}
+.sidebar-menu li.treeview em ul{ position:absolute;top:26px;background:#fff;padding:14px;left:-33px;border: 1px solid #B8C7CE; }
+.sidebar-menu li.treeview em li{ list-style:none; }
+.sidebar-menu li.treeview em li a{color: #333;padding-bottom: 5px;display: inline-block;font-size: 12px;font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;font-weight: 700; }
+.sidebar-menu .treeview a span{ width: 133px;display: inline-block;overflow: hidden; }
+.sidebar-collapse .sidebar-menu li.treeview em{ top: 9px;right: -7px;}
+.main-sidebar .sidebar-menu{ overflow: visible; }
+.tbl-data-addons{ line-height:26px; }
+
+.table-view-details-btn a { display: inline-block;background: #3C8DBC;padding: 4px 13px;color: #fff; margin: 2px 0;}
+/*Header Sticky css*/
+ header.fixed{ width:100%; }
+.fixed {position: fixed;top:0; left:0;transition:1s;  }
+
+@media screen and (max-width:767px){
+	.table-view-details p{     width: 100%; }
+	
+}
